@@ -38,7 +38,7 @@ def lookup_ip():
 def main():
     while True:
         lookup_ip()
-        choice = input("\nType 'exit' to close the tool or press Enter to look up another IP: ")
+        choice = input("\nType 'exit' to close the tool: ")
         if choice.lower() == 'exit':
             break
 
